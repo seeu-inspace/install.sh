@@ -87,7 +87,7 @@ cd ..
 
 # active-directory-attack
 mkdir active-directory && cd active-directory
-wget https://github.com/BloodHoundAD/SharpHound/releases/download/v2.0.1/SharpHound-v2.0.1.zip && sleep 2 && unzip SharpHound-v2.0.1.zip -d SharpHound && rm SharpHound-v2.0.1.zip
+wget https://github.com/BloodHoundAD/SharpHound/releases/download/v2.3.1/SharpHound-v2.3.1.zip && sleep 2 && unzip SharpHound-v2.3.1.zip -d SharpHound && rm SharpHound-v2.3.1.zip
 sleep 2
 git clone https://github.com/ropnop/windapsearch.git
 sudo apt-get install -y libldap2-dev slapd libsasl2-dev
