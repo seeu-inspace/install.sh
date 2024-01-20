@@ -80,6 +80,8 @@ sleep 2
 cd ..
 wget https://raw.githubusercontent.com/AonCyberLabs/Windows-Exploit-Suggester/master/windows-exploit-suggester.py
 wget https://raw.githubusercontent.com/bitsadmin/wesng/master/wes.py
+wget https://raw.githubusercontent.com/enjoiz/Privesc/master/privesc.ps1
+wget https://raw.githubusercontent.com/PowerShellMafia/PowerSploit/master/Privesc/PowerUp.ps1
 sleep 2
 cd ..
 
