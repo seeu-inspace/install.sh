@@ -105,6 +105,7 @@ mkdir EasyG && cd EasyG && wget https://raw.githubusercontent.com/seeu-inspace/e
 mkdir GitTools && cd GitTools && wget https://github.com/internetwache/GitTools/blob/master/Dumper/gitdumper.sh && sleep 2 && wget https://github.com/internetwache/GitTools/blob/master/Extractor/extractor.sh && sleep 2 && wget https://github.com/internetwache/GitTools/blob/master/Finder/gitfinder.py && sleep 2 && cd ..
 mkdir ysoserial && cd ysoserial && wget https://github.com/frohoff/ysoserial/releases/latest/download/ysoserial-all.jar && sleep 2 && cd ..
 pip3 install git+https://github.com/xnl-h4ck3r/urless.git
+mkdir Invisi-Shell && cd Invisi-Shell && wget https://raw.githubusercontent.com/OmerYa/Invisi-Shell/master/RunWithPathAsAdmin.bat && wget https://raw.githubusercontent.com/OmerYa/Invisi-Shell/master/RunWithRegistryNonAdmin.bat && cd ..
 cd ~/Tools/
 sleep 2
 
