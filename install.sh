@@ -90,10 +90,13 @@ mkdir active-directory && cd active-directory
 wget https://github.com/BloodHoundAD/SharpHound/releases/download/v2.3.1/SharpHound-v2.3.1.zip && sleep 2 && unzip SharpHound-v2.3.1.zip -d SharpHound && rm SharpHound-v2.3.1.zip
 sleep 2
 git clone https://github.com/ropnop/windapsearch.git
+git clone https://github.com/samratashok/ADModule.git
 sudo apt-get install -y libldap2-dev slapd libsasl2-dev
 python -m pip install python-ldap
-cd ~/Tools/
+wget https://raw.githubusercontent.com/Leo4j/Invoke-SessionHunter/main/Invoke-SessionHunter.ps1
 sleep 2
+cd ~/Tools/
+
 
 # web-attack
 mkdir web-attack && cd web-attack
