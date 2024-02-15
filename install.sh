@@ -119,6 +119,17 @@ echo "import sys\nstr = \"powershell.exe -nop -w hidden -e \" + sys.argv[1]\nn =
 cd ~/
 sleep 2
 
+#web3
+cd ~/Downloads
+wget https://github.com/VSCodium/vscodium/releases/download/1.85.2.24019/codium_1.85.2.24019_amd64.deb
+sudo dpkg -i codium_1.85.2.24019_amd64.deb
+rm codium_1.85.2.24019_amd64.deb
+curl -L https://foundry.paradigm.xyz | bash
+source /home/kali/.zshenv
+foundryup
+cd ~/
+sleep 2
+
 # add env variables
 echo 'export GOROOT=/usr/local/go' >> ~/.zshrc && echo 'export GOPATH=$HOME/go' >> ~/.zshrc && echo 'export PATH=$GOPATH/bin:$GOROOT/bin:$PATH' >> ~/.zshrc && echo 'export PATH=$PATH:/home/kali/.local/bin' >> ~/.zshrc;
 sleep 2
