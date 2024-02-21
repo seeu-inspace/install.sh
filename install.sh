@@ -5,7 +5,7 @@ sudo -- sh -c "apt -y update && apt -y upgrade && apt -y clean && apt -y autocle
 sleep 2
 
 # python, ruby and some packages
-sudo apt-get install -y gedit python2-dev python-dev-is-python3 virtualenv libpcap-dev libcurl4-openssl-dev libldns-dev libssl-dev jq libxslt1-dev build-essential ruby-full rename terminator chromium chromium-l10n chromium-shell awscli libkrb5-dev krb5-config neo4j bloodhound golang-go nuclei subfinder naabu
+sudo apt-get install -y gedit python2-dev python-dev-is-python3 virtualenv libpcap-dev libcurl4-openssl-dev libldns-dev libssl-dev jq libxslt1-dev build-essential ruby-full rename terminator chromium chromium-l10n chromium-shell awscli libkrb5-dev krb5-config neo4j bloodhound golang-go nuclei subfinder httpx-toolkit naabu
 sleep 2
 
 # ruby's gems
@@ -17,7 +17,6 @@ go install -v github.com/owasp-amass/oam-tools/cmd/oam_subs@master
 go install -v github.com/gwen001/github-subdomains@latest
 go install -v github.com/OJ/gobuster/v3@latest
 go install -v github.com/tomnomnom/anew@latest
-go install -v github.com/tomnomnom/httprobe@latest
 go install -v github.com/projectdiscovery/katana/cmd/katana@latest
 go install -v github.com/jaeles-project/gospider@latest
 go install -v github.com/hakluke/hakrawler@latest
