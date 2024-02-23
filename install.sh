@@ -43,8 +43,10 @@ sed -i 's/from neo4j.v1 import GraphDatabase/from neo4j import GraphDatabase/g' 
 pip3 install git+https://github.com/franc-pentest/ldeep
 sleep 2
 
-# android-attack
+# mobile-attack
 mkdir android-attack && cd android-attack
+mkdir ios-attack && cd ios-attack
+pip3 install frida frida-tools
 cd ~/Tools/
 
 # linux-attack
