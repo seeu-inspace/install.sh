@@ -92,6 +92,8 @@ wget https://github.com/BloodHoundAD/SharpHound/releases/download/v2.3.1/SharpHo
 sleep 2
 git clone https://github.com/ropnop/windapsearch.git
 git clone https://github.com/samratashok/ADModule.git
+git clone https://github.com/danielbohannon/Invoke-Obfuscation.git
+mkdir Invisi-Shell && cd Invisi-Shell && wget https://raw.githubusercontent.com/OmerYa/Invisi-Shell/master/RunWithPathAsAdmin.bat && wget https://raw.githubusercontent.com/OmerYa/Invisi-Shell/master/RunWithRegistryNonAdmin.bat && cd ..
 sudo apt-get install -y libldap2-dev slapd libsasl2-dev
 python -m pip install python-ldap
 wget https://raw.githubusercontent.com/Leo4j/Invoke-SessionHunter/main/Invoke-SessionHunter.ps1
@@ -106,8 +108,6 @@ mkdir EasyG && cd EasyG && wget https://raw.githubusercontent.com/seeu-inspace/e
 mkdir GitTools && cd GitTools && wget https://github.com/internetwache/GitTools/blob/master/Dumper/gitdumper.sh && sleep 2 && wget https://github.com/internetwache/GitTools/blob/master/Extractor/extractor.sh && sleep 2 && wget https://github.com/internetwache/GitTools/blob/master/Finder/gitfinder.py && sleep 2 && cd ..
 mkdir ysoserial && cd ysoserial && wget https://github.com/frohoff/ysoserial/releases/latest/download/ysoserial-all.jar && sleep 2 && cd ..
 pip3 install git+https://github.com/xnl-h4ck3r/urless.git
-git clone https://github.com/danielbohannon/Invoke-Obfuscation.git
-mkdir Invisi-Shell && cd Invisi-Shell && wget https://raw.githubusercontent.com/OmerYa/Invisi-Shell/master/RunWithPathAsAdmin.bat && wget https://raw.githubusercontent.com/OmerYa/Invisi-Shell/master/RunWithRegistryNonAdmin.bat && cd ..
 cd ~/Tools/
 sleep 2
 
