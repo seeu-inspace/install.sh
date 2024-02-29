@@ -45,6 +45,12 @@ sleep 2
 
 # mobile-attack
 mkdir android-attack && cd android-attack
+wget https://r1---sn-hpa7knl7.gvt1.com/edgedl/android/studio/ide-zips/2023.1.1.28/android-studio-2023.1.1.28-linux.tar.gz
+tar xvzf android-studio-2023.1.1.28-linux.tar.gz
+rm android-studio-2023.1.1.28-linux.tar.gz
+cd android-studio/bin
+chmod +x studio.sh && ./studio.sh
+cd ../../..
 mkdir ios-attack && cd ios-attack
 pip3 install frida frida-tools
 cd ~/Tools/
