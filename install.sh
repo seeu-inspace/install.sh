@@ -5,7 +5,7 @@ sudo -- sh -c "apt -y update && apt -y upgrade && apt -y clean && apt -y autocle
 sleep 2
 
 # python, ruby and some packages
-sudo apt-get install -y gedit python2-dev python-dev-is-python3 virtualenv libpcap-dev libcurl4-openssl-dev libldns-dev libssl-dev jq libxslt1-dev build-essential ruby-full rename terminator chromium chromium-l10n chromium-shell awscli libkrb5-dev krb5-config neo4j bloodhound golang-go nuclei subfinder httpx-toolkit naabu cloc adb apktool jadx docker.io docker-compose
+sudo apt-get install -y gedit python2-dev python-dev-is-python3 virtualenv libpcap-dev libcurl4-openssl-dev libldns-dev libssl-dev jq libxslt1-dev build-essential ruby-full rename terminator chromium chromium-l10n chromium-shell awscli libkrb5-dev krb5-config neo4j bloodhound golang-go nuclei subfinder httpx-toolkit naabu cloc adb apktool jadx docker.io docker-compose dirsearch
 sleep 2
 
 # ruby's gems
