@@ -139,7 +139,7 @@ cd ~/
 sleep 2
 
 # add env variables
-echo 'export GOROOT=/usr/local/go' >> ~/.zshrc && echo 'export GOPATH=$HOME/go' >> ~/.zshrc && echo 'export PATH=$GOPATH/bin:$GOROOT/bin:$PATH' >> ~/.zshrc && echo 'export PATH=$PATH:/home/kali/.local/bin' >> ~/.zshrc;
+echo 'export GOROOT=/usr/lib/go' >> ~/.zshrc && echo 'export GOPATH=$HOME/go' >> ~/.zshrc && echo 'export PATH=$GOPATH/bin:$GOROOT/bin:$PATH' >> ~/.zshrc && echo 'export PATH=$PATH:/home/kali/.local/bin' >> ~/.zshrc;
 sleep 2
 
 # update
