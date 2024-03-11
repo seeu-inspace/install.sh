@@ -21,6 +21,7 @@ go install -v github.com/projectdiscovery/katana/cmd/katana@latest
 go install -v github.com/jaeles-project/gospider@latest
 go install -v github.com/hakluke/hakrawler@latest
 go install -v github.com/ropnop/kerbrute@latest
+go install github.com/lc/gau/v2/cmd/gau@latest
 sleep 2
 
 # install more tools
