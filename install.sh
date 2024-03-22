@@ -127,7 +127,7 @@ echo "import sys\nstr = \"powershell.exe -nop -w hidden -e \" + sys.argv[1]\nn =
 cd ~/
 sleep 2
 
-#web3
+# web3
 cd ~/Downloads
 ## vscodium
 wget https://github.com/VSCodium/vscodium/releases/download/1.85.2.24019/codium_1.85.2.24019_amd64.deb
