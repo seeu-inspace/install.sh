@@ -129,12 +129,18 @@ sleep 2
 
 #web3
 cd ~/Downloads
+## vscodium
 wget https://github.com/VSCodium/vscodium/releases/download/1.85.2.24019/codium_1.85.2.24019_amd64.deb
 sudo dpkg -i codium_1.85.2.24019_amd64.deb
 rm codium_1.85.2.24019_amd64.deb
+## foundry
 curl -L https://foundry.paradigm.xyz | bash
 source /home/kali/.zshenv
 foundryup
+## ipfs
+wget https://github.com/ipfs/ipfs-desktop/releases/download/v0.33.0/ipfs-desktop-0.33.0-linux-amd64.deb
+sudo dpkg -i ipfs-desktop-0.33.0-linux-amd64.deb
+rm ipfs-desktop-0.33.0-linux-amd64.deb
 cd ~/
 sleep 2
 
