@@ -5,11 +5,28 @@ sudo -- sh -c "apt -y update && apt -y upgrade && apt -y clean && apt -y autocle
 sleep 2
 
 # python, ruby and some packages
-sudo apt-get install -y gedit python2-dev python-dev-is-python3 virtualenv libpcap-dev libcurl4-openssl-dev libldns-dev libssl-dev jq libxslt1-dev build-essential ruby-full rename terminator chromium chromium-l10n chromium-shell awscli libkrb5-dev krb5-config neo4j bloodhound golang-go nuclei subfinder httpx-toolkit naabu cloc adb apktool jadx docker.io docker-compose dirsearch
+sudo apt-get install -y gedit python2-dev python-dev-is-python3 virtualenv libpcap-dev libcurl4-openssl-dev libldns-dev libssl-dev jq libxslt1-dev build-essential ruby-full rename terminator chromium chromium-l10n chromium-shell awscli libkrb5-dev krb5-config neo4j bloodhound golang-go nuclei subfinder httpx-toolkit naabu cloc adb apktool jadx docker.io docker-compose dirsearch rust pandoc texlive texlive-fonts-recommended texlive-fonts-extra
+sleep 2
+
+# install rust
+rustup default stable
+export PATH="$HOME/.cargo/bin:$PATH"
 sleep 2
 
 # ruby's gems
 sudo gem install uri net-http json socket webdrivers selenium-webdriver
+sleep 2
+
+# install pandoc
+cd ~/Download
+wget https://github.com/Wandmalfarbe/pandoc-latex-template/releases/download/2.4.2/Eisvogel-2.4.2.tar.gz
+mkdir eisvogel
+tar xvzf Eisvogel-2.4.2.tar.gz -C eisvogel
+mkdir -p ~/.pandoc/templates
+cp ~/Download/eisvogel/eisvogel.latex ~/.pandoc/templates/eisvogel.latex
+sudo cp ~/Download/eisvogel/eisvogel.latex /usr/share/pandoc/data/templates/eisvogel.latex
+rm -r eisvogel
+cd ~/
 sleep 2
 
 # golang tools
@@ -46,14 +63,8 @@ pip3 install git+https://github.com/franc-pentest/ldeep
 sleep 2
 
 # mobile-attack
-mkdir android-attack && cd android-attack
-wget https://r1---sn-hpa7knl7.gvt1.com/edgedl/android/studio/ide-zips/2023.1.1.28/android-studio-2023.1.1.28-linux.tar.gz
-tar xvzf android-studio-2023.1.1.28-linux.tar.gz
-rm android-studio-2023.1.1.28-linux.tar.gz
-cd android-studio/bin
-chmod +x studio.sh && ./studio.sh
-cd ../../..
-mkdir ios-attack && cd ios-attack
+mkdir android-attack
+mkdir ios-attack
 pip3 install frida frida-tools
 cd ~/Tools/
 
@@ -125,10 +136,13 @@ git clone https://github.com/Greenwolf/ntlm_theft.git && cd ntlm_theft && rm REA
 mkdir powershell_scripts && cd powershell_scripts && wget https://github.com/darkoperator/powershell_scripts/blob/master/ps_encoder.py && sleep 2 && cd ..
 curl -k https://www.exploit-db.com/download/44564 -o Bad-ODF-44564.py
 echo "import sys\nstr = \"powershell.exe -nop -w hidden -e \" + sys.argv[1]\nn = 50\nfor i in range(0, len(str), n):\n        print (\"Str = Str + \" + '\"' + str[i:i+n] + '\"')" > create_macro.py
-cd ~/
+cd ~/Tools/
 sleep 2
 
 # web3
+mkdir web3
+pip3 install slither-analyzer
+cargo install aderyn
 cd ~/Downloads
 ## vscodium
 wget https://github.com/VSCodium/vscodium/releases/download/1.85.2.24019/codium_1.85.2.24019_amd64.deb
@@ -146,7 +160,8 @@ cd ~/
 sleep 2
 
 # add env variables
-echo 'export GOROOT=/usr/lib/go' >> ~/.zshrc && echo 'export GOPATH=$HOME/go' >> ~/.zshrc && echo 'export PATH=$GOPATH/bin:$GOROOT/bin:$PATH' >> ~/.zshrc && echo 'export PATH=$PATH:/home/kali/.local/bin' >> ~/.zshrc;
+echo 'export GOROOT=/usr/lib/go' >> ~/.zshrc && echo 'export GOPATH=$HOME/go' >> ~/.zshrc && echo 'export PATH=$GOPATH/bin:$GOROOT/bin:$PATH' >> ~/.zshrc && echo 'export PATH=$PATH:/home/kali/.local/bin' >> ~/.zshrc && echo 'export PATH="$HOME/.cargo/bin:$PATH"' >> ~/.zshrc
+
 sleep 2
 
 # update
