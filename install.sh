@@ -61,6 +61,8 @@ sed -i 's/from neo4j.v1 import GraphDatabase/from neo4j import GraphDatabase/g' 
 ## ldeep
 pip3 install git+https://github.com/franc-pentest/ldeep
 sleep 2
+## yarn
+curl -o- -L https://yarnpkg.com/install.sh | bash
 
 # mobile-attack
 mkdir android-attack
