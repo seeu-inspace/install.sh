@@ -23,6 +23,8 @@ dos2unix install.sh
 - Ruby (full)
 - Go
 - Rust
+- Node.js
+- Yarn
 - Build essential tools
 
 ### Network Tools
