@@ -145,6 +145,7 @@ sleep 2
 mkdir web3
 pip3 install slither-analyzer
 cargo install aderyn
+curl -s -o- -L -q https://raw.githubusercontent.com/seeu-inspace/solidityinspector/main/install.sh | bash
 cd ~/Downloads
 ## vscodium
 wget https://github.com/VSCodium/vscodium/releases/download/1.85.2.24019/codium_1.85.2.24019_amd64.deb
@@ -154,8 +155,6 @@ rm codium_1.85.2.24019_amd64.deb
 curl -L https://foundry.paradigm.xyz | bash
 source /home/kali/.zshenv
 foundryup
-## SolidityInspector
-curl -s -o- -L -q https://raw.githubusercontent.com/seeu-inspace/solidityinspector/main/install.sh | bash
 ## ipfs
 wget https://github.com/ipfs/ipfs-desktop/releases/download/v0.33.0/ipfs-desktop-0.33.0-linux-amd64.deb
 sudo dpkg -i ipfs-desktop-0.33.0-linux-amd64.deb
