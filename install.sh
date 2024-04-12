@@ -154,6 +154,8 @@ rm codium_1.85.2.24019_amd64.deb
 curl -L https://foundry.paradigm.xyz | bash
 source /home/kali/.zshenv
 foundryup
+## SolidityInspector
+curl -s -o- -L -q https://raw.githubusercontent.com/seeu-inspace/solidityinspector/main/install.sh | bash
 ## ipfs
 wget https://github.com/ipfs/ipfs-desktop/releases/download/v0.33.0/ipfs-desktop-0.33.0-linux-amd64.deb
 sudo dpkg -i ipfs-desktop-0.33.0-linux-amd64.deb
