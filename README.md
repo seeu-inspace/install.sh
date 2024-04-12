@@ -91,6 +91,8 @@ dos2unix install.sh
 ### Web3 Tools
 - Slither
 - Aderyn
+- SolidityInspector
 - VSCodium
 - Foundry
 - IPFS Desktop
+- SolidityInspector
