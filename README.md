@@ -94,5 +94,5 @@ dos2unix install.sh
 - SolidityInspector
 - VSCodium
 - Foundry
+- HardHat
 - IPFS Desktop
-- SolidityInspector
