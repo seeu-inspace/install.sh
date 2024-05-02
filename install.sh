@@ -155,6 +155,8 @@ rm codium_1.85.2.24019_amd64.deb
 curl -L https://foundry.paradigm.xyz | bash
 source /home/kali/.zshenv
 foundryup
+## hardhat
+npm install --save-dev hardhat
 ## ipfs
 wget https://github.com/ipfs/ipfs-desktop/releases/download/v0.33.0/ipfs-desktop-0.33.0-linux-amd64.deb
 sudo dpkg -i ipfs-desktop-0.33.0-linux-amd64.deb
