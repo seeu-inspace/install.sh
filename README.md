@@ -26,12 +26,15 @@ dos2unix install.sh
 - Node.js
 - Yarn
 - Build essential tools
+  - Gems and python packets
+
 
 ### Network Tools
 - Libpcap development libraries
 - Libcurl and LDNS development libraries
 - OpenSSL development libraries
 - jq
+
 
 ### Browsers and Utilities
 - Gedit
@@ -44,49 +47,79 @@ dos2unix install.sh
 - Docker
 - Docker Compose
 
-### Security Tools
-- Neo4j
-- Bloodhound
-- Nuclei
-- Subfinder
-- HTTPX toolkit
-- Naabu
-- Dirsearch
 
 ### Mobile Attack Tools
 - Frida
 - APKTool
 - JADX
+- apkleaks
+
 
 ### Linux Attack Tools
 - LinPEAS
 - Linux Exploit Suggester
 
+
 ### SIP-VoIP Attack Tools
 - Sippts
+
 
 ### Windows Attack Tools
 - dnSpy
 - PSTools
 - Various Windows privilege escalation scripts
+  - winPEAS
+  - windows-exploit-suggester.py
+  - wes.py
+  - privesc.ps1
+  - PowerUp.ps1
 - SharpHound
 - Invoke-Obfuscation
+
 
 ### Active Directory Attack Tools
 - Windapsearch
 - ADModule
 - Invisi-Shell
+- kerbrute
+- Neo4j
+- Bloodhound
+- aclpwn
+
 
 ### Web Attack Tools
+
+#### Asset discovery
+- amass
+- oam_subs
+- github-subdomains
+- gobuster
+- Subfinder
+- anew
+- HTTPX toolkit
+- Naabu
+
+#### Crawling
+- katana
+- gospider
+- hakrawler
+- gau
+
+#### Others
 - ParamSpider
 - EasyG
 - GitTools
 - ysoserial
 - Urless
+- socialhunter
+- Nuclei
+- Dirsearch
+
 
 ### Phishing Tools
 - NTLM theft
 - Various PowerShell scripts
+
 
 ### Web3 Tools
 - Slither
@@ -96,3 +129,7 @@ dos2unix install.sh
 - Foundry
 - HardHat
 - IPFS Desktop
+
+
+### Others
+- Pandoc
