@@ -173,3 +173,6 @@ sleep 2
 sudo -- sh -c "apt -y update && apt -y upgrade && apt -y clean && apt -y autoclean && apt -y autoremove && apt list --upgradable"
 sudo updatedb
 sleep 2
+
+# enable root
+sudo passwd
