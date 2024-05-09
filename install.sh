@@ -32,6 +32,7 @@ sleep 2
 sudo apt remove amass amass-common
 
 # golang tools
+go install -v github.com/owasp-amass/amass/v4/...@master
 go install -v github.com/owasp-amass/oam-tools/cmd/oam_subs@master
 go install -v github.com/gwen001/github-subdomains@latest
 go install -v github.com/OJ/gobuster/v3@latest
@@ -42,7 +43,6 @@ go install -v github.com/hakluke/hakrawler@latest
 go install -v github.com/ropnop/kerbrute@latest
 go install github.com/lc/gau/v2/cmd/gau@latest
 go install github.com/utkusen/socialhunter@latest
-go install -v github.com/owasp-amass/amass/v4/...@master
 sleep 2
 
 # install more tools
