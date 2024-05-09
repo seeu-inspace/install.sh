@@ -27,6 +27,7 @@ dos2unix install.sh
 - Yarn
 - Build essential tools
   - Gems and python packets
+  - Other packets and tools
 
 
 ### Network Tools
@@ -131,5 +132,11 @@ dos2unix install.sh
 - IPFS Desktop
 
 
+### Cloud
+- awscli
+
+
 ### Others
+- Gedit
+- Chromium
 - Pandoc
