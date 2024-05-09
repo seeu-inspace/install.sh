@@ -107,6 +107,7 @@ wget https://raw.githubusercontent.com/AonCyberLabs/Windows-Exploit-Suggester/ma
 wget https://raw.githubusercontent.com/bitsadmin/wesng/master/wes.py
 wget https://raw.githubusercontent.com/enjoiz/Privesc/master/privesc.ps1
 wget https://raw.githubusercontent.com/PowerShellMafia/PowerSploit/master/Privesc/PowerUp.ps1
+git clone https://github.com/danielbohannon/Invoke-Obfuscation.git
 sleep 2
 cd ..
 
@@ -116,7 +117,6 @@ wget https://github.com/BloodHoundAD/SharpHound/releases/download/v2.3.1/SharpHo
 sleep 2
 git clone https://github.com/ropnop/windapsearch.git
 git clone https://github.com/samratashok/ADModule.git
-git clone https://github.com/danielbohannon/Invoke-Obfuscation.git
 mkdir Invisi-Shell && cd Invisi-Shell && wget https://raw.githubusercontent.com/OmerYa/Invisi-Shell/master/RunWithPathAsAdmin.bat && wget https://raw.githubusercontent.com/OmerYa/Invisi-Shell/master/RunWithRegistryNonAdmin.bat && cd ..
 sudo apt-get install -y libldap2-dev slapd libsasl2-dev
 python -m pip install python-ldap
