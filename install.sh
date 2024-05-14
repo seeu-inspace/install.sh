@@ -56,6 +56,7 @@ sleep 2
 ## apkleaks
 sudo apt-get remove -y python3-pip
 sudo apt-get install -y python3-pip
+pip install waymore
 pip3 install apkleaks
 ## aclpwn
 pip install neo4j-driver ldap3 impacket
