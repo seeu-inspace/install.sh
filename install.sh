@@ -56,6 +56,7 @@ sleep 2
 ## apkleaks
 sudo apt-get remove -y python3-pip
 sudo apt-get install -y python3-pip
+pip install xnLinkFinder
 pip install waymore
 pip3 install apkleaks
 ## aclpwn
