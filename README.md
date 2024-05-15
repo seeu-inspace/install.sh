@@ -105,6 +105,7 @@ dos2unix install.sh
 - gospider
 - hakrawler
 - gau
+- waymore
 
 #### Others
 - ParamSpider
@@ -115,6 +116,8 @@ dos2unix install.sh
 - socialhunter
 - Nuclei
 - Dirsearch
+- xnLinkFinder
+- subjs
 
 
 ### Phishing Tools
