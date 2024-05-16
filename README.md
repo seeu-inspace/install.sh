@@ -118,6 +118,8 @@ dos2unix install.sh
 - Dirsearch
 - xnLinkFinder
 - subjs
+- Mantra
+- github-endpoints.py
 
 
 ### Phishing Tools
