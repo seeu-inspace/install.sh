@@ -120,6 +120,7 @@ dos2unix install.sh
 - subjs
 - Mantra
 - github-endpoints.py
+- SecLists
 
 
 ### Phishing Tools
