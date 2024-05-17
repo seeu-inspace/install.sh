@@ -47,6 +47,7 @@ dos2unix install.sh
 - AWS CLI
 - Docker
 - Docker Compose
+- pdftotext
 
 
 ### Mobile Attack Tools
