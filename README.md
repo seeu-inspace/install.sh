@@ -107,9 +107,11 @@ dos2unix install.sh
 - hakrawler
 - gau
 - waymore
+- github-endpoints.py
+- xnLinkFinder
+- ParamSpider
 
 #### Others
-- ParamSpider
 - EasyG
 - GitTools
 - ysoserial
@@ -117,11 +119,10 @@ dos2unix install.sh
 - socialhunter
 - Nuclei
 - Dirsearch
-- xnLinkFinder
 - subjs
 - Mantra
-- github-endpoints.py
 - SecLists
+- byp4xx
 
 
 ### Phishing Tools
