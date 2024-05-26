@@ -45,6 +45,7 @@ go install -v github.com/lc/gau/v2/cmd/gau@latest
 go install -v github.com/utkusen/socialhunter@latest
 go install -v github.com/lc/subjs@latest
 go install -v github.com/MrEmpy/mantra@latest
+go install -v github.com/lobuhi/byp4xx@latest
 sleep 2
 
 # install more tools
