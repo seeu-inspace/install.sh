@@ -139,6 +139,7 @@ mkdir GitTools && cd GitTools && wget https://raw.githubusercontent.com/internet
 mkdir ysoserial && cd ysoserial && wget https://github.com/frohoff/ysoserial/releases/latest/download/ysoserial-all.jar && sleep 2 && cd ..
 mkdir github-search && cd github-search && wget https://raw.githubusercontent.com/gwen001/github-search/master/github-endpoints.py && sleep 2 && cd ..
 pip3 install git+https://github.com/xnl-h4ck3r/urless.git
+sudo mkdir /usr/share/seclists/Payloads/Open-Redirect/ && sudo wget https://raw.githubusercontent.com/swisskyrepo/PayloadsAllTheThings/master/Open%20Redirect/Intruder/Open-Redirect-payloads.txt -O /usr/share/seclists/Payloads/Open-Redirect/Open-Redirect-payloads.txt
 cd ~/Tools/
 sleep 2
 
