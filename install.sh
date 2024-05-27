@@ -133,6 +133,7 @@ cd ~/Tools/
 # web-attack
 mkdir web-attack && cd web-attack
 git clone https://github.com/devanshbatham/ParamSpider.git && cd ParamSpider && pip install . && cd .. && rm -rf ParamSpider
+git clone https://github.com/r0075h3ll/Oralyzer.git && cd Oralyzer && pip3 install -r requirements.txt && cd ..
 mkdir EasyG && cd EasyG && wget https://raw.githubusercontent.com/seeu-inspace/easyg/main/scripts/easyg.rb -O easyg.rb && wget https://raw.githubusercontent.com/seeu-inspace/easyg/main/scripts/config.yaml && sleep 2 && sed -i 's/\r$//' easyg.rb && cd ..
 mkdir GitTools && cd GitTools && wget https://raw.githubusercontent.com/internetwache/GitTools/master/Dumper/gitdumper.sh && chmod +x gitdumper.sh && sleep 2 && wget https://github.com/internetwache/GitTools/blob/master/Extractor/extractor.sh && chmod +x extractor.sh && sleep 2 && wget https://raw.githubusercontent.com/internetwache/GitTools/master/Finder/gitfinder.py && sleep 2 && cd ..
 mkdir ysoserial && cd ysoserial && wget https://github.com/frohoff/ysoserial/releases/latest/download/ysoserial-all.jar && sleep 2 && cd ..
