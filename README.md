@@ -121,8 +121,9 @@ dos2unix install.sh
 - Dirsearch
 - subjs
 - Mantra
-- SecLists
+- Oralyzer
 - byp4xx
+- SecLists
 
 
 ### Phishing Tools
