@@ -124,6 +124,7 @@ dos2unix install.sh
 - Oralyzer
 - byp4xx
 - SecLists
+- PayloadsAllTheThings/Open-Redirect-payloads.txt
 
 
 ### Phishing Tools
