@@ -46,6 +46,7 @@ go install -v github.com/utkusen/socialhunter@latest
 go install -v github.com/lc/subjs@latest
 go install -v github.com/MrEmpy/mantra@latest
 go install -v github.com/lobuhi/byp4xx@latest
+go install github.com/hakluke/hakcheckurl@latest
 sleep 2
 
 # install more tools
