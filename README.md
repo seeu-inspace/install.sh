@@ -125,7 +125,6 @@ dos2unix install.sh
 - byp4xx
 - SecLists
 - PayloadsAllTheThings/Open-Redirect-payloads.txt
-- hakcheckurl
 
 
 ### Phishing Tools
