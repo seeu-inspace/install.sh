@@ -156,6 +156,7 @@ sleep 2
 # web3
 mkdir web3
 pip3 install slither-analyzer
+pip install vyper
 cargo install aderyn
 curl -s -o- -L -q https://raw.githubusercontent.com/seeu-inspace/solidityinspector/main/install.sh | bash
 cd ~/Downloads
