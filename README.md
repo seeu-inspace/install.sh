@@ -20,7 +20,7 @@ dos2unix install.sh
 ### Development Tools
 - Python (2 and 3)
 - Virtualenv
-- Ruby (full)
+- Ruby
 - Go
 - Rust
 - Node.js
