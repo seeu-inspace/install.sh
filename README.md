@@ -28,7 +28,6 @@ dos2unix install.sh
 - Build essential tools
   - Gems and python packets
   - Other packets and tools
-- Vyper
 
 
 ### Network Tools
