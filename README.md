@@ -98,7 +98,7 @@ dos2unix install.sh
 - gobuster
 - Subfinder
 - anew
-- HTTPX toolkit
+- httpx
 - Naabu
 
 #### Crawling
