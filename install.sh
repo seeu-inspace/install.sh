@@ -11,6 +11,9 @@ sleep 2
 # install rust
 rustup default stable
 export PATH="$HOME/.cargo/bin:$PATH"
+# rustup target add wasm32-unknown-unknown --toolchain nightly
+# rustup component add rust-src
+# cargo install cargo-contract
 sleep 2
 
 # ruby's gems
