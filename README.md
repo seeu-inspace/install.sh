@@ -24,6 +24,7 @@ dos2unix install.sh
 - Go
 - Rust
 - Node.js
+  - Node Version Manager
 - Yarn
 - Build essential tools
   - Gems and python packets
