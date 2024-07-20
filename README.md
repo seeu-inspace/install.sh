@@ -122,7 +122,6 @@ dos2unix install.sh
 - Dirsearch
 - subjs
 - Mantra
-- Oralyzer
 - byp4xx
 - SecLists
 - PayloadsAllTheThings/Open-Redirect-payloads.txt
