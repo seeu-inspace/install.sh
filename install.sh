@@ -5,7 +5,7 @@ sudo -- sh -c "apt -y update && apt -y upgrade && apt -y clean && apt -y autocle
 sleep 2
 
 # python, ruby and some packages
-sudo apt-get install -y gedit python2-dev python-dev-is-python3 virtualenv libpcap-dev libcurl4-openssl-dev libldns-dev libssl-dev jq libxslt1-dev build-essential ruby-full rename terminator chromium chromium-l10n chromium-shell awscli libkrb5-dev krb5-config neo4j bloodhound golang-go nuclei subfinder httpx-toolkit naabu cloc adb apktool jadx docker.io docker-compose dirsearch rust pandoc texlive texlive-fonts-recommended texlive-fonts-extra nodejs seclists pdftotext
+sudo apt-get install -y gedit python2-dev python-dev-is-python3 virtualenv libpcap-dev libcurl4-openssl-dev libldns-dev libssl-dev jq libxslt1-dev build-essential ruby-full rename terminator chromium chromium-l10n chromium-shell awscli libkrb5-dev krb5-config neo4j bloodhound golang-go nuclei subfinder httpx-toolkit naabu adb apktool jadx docker.io docker-compose dirsearch rust pandoc texlive texlive-fonts-recommended texlive-fonts-extra nodejs seclists pdftotext
 sleep 2
 
 # install Node Version Manager
@@ -94,13 +94,6 @@ wget https://raw.githubusercontent.com/mzet-/linux-exploit-suggester/master/linu
 sleep 2
 cd ~/Tools/
 
-# SIP-VoIP-attack
-mkdir SIP-VoIP-attack && cd SIP-VoIP-attack
-git clone https://github.com/Pepelux/sippts.git
-cd sippts && pip3 install -v -e . && rm .gitignore LICENSE.txt README.md sippts.png changelog.txt version
-cd ~/Tools/
-sleep 2
-
 # windows-attack
 mkdir windows-attack && cd windows-attack
 mkdir dnSpy && cd dnSpy
@@ -146,7 +139,6 @@ mkdir GitTools && cd GitTools && wget https://raw.githubusercontent.com/internet
 mkdir ysoserial && cd ysoserial && wget https://github.com/frohoff/ysoserial/releases/latest/download/ysoserial-all.jar && sleep 2 && cd ..
 mkdir github-search && cd github-search && wget https://raw.githubusercontent.com/gwen001/github-search/master/github-endpoints.py && sleep 2 && cd ..
 pip3 install git+https://github.com/xnl-h4ck3r/urless.git
-sudo mkdir /usr/share/seclists/Payloads/Open-Redirect/ && sudo wget https://raw.githubusercontent.com/swisskyrepo/PayloadsAllTheThings/master/Open%20Redirect/Intruder/Open-Redirect-payloads.txt -O /usr/share/seclists/Payloads/Open-Redirect/Open-Redirect-payloads.txt
 cd ~/Tools/
 sleep 2
 
