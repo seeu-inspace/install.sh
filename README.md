@@ -63,10 +63,6 @@ dos2unix install.sh
 - Linux Exploit Suggester
 
 
-### SIP-VoIP Attack Tools
-- Sippts
-
-
 ### Windows Attack Tools
 - dnSpy
 - PSTools
@@ -124,7 +120,6 @@ dos2unix install.sh
 - Mantra
 - byp4xx
 - SecLists
-- PayloadsAllTheThings/Open-Redirect-payloads.txt
 
 
 ### Phishing Tools
